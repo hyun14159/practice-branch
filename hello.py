@@ -13,8 +13,12 @@ def error_report():
 	print("네트우커 서버 동기화{}".format(ctime))
 	sleep(2)
 	print("동기화 완료{}".format(ctime))
-
+	sleep(1)
 	print("I'm done, this network is yours")
 
 	return fast_hackers
+
+for i in range(5):
+	if i%2==0:
+	print('hello. git!')
 
